@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // ── Docker Hub ──────────────────────────────────────────────
-        DOCKER_HUB_USERNAME  = 'your-dockerhub-username'          // ← change this
+        DOCKER_HUB_USERNAME  = 'sornsomavatey'          // ← change this
         IMAGE_NAME           = "${DOCKER_HUB_USERNAME}/devops-api"
         IMAGE_TAG            = "${BUILD_NUMBER}"
         CONTAINER_NAME       = 'devops-api-container'
